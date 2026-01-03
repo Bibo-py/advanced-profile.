@@ -1,0 +1,112 @@
+body{
+    background-color: #91C6BC;
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 10px;
+
+}
+.contact-button{
+    background-color: #4B9DA9;
+    height: 50px;
+    width: 100px;
+    color: #F6F3C2;
+    border-color: orangered;
+    border-radius: 40%;
+    border-style: groove;
+    border-width: 4px;
+    display: inline-block;
+    
+}
+a{
+    text-decoration: none;
+    color: #F6F3C2;
+}
+.portfolio-page{
+    width: 100px;
+    height: 50px;
+    margin-left: 100px;
+    background-color: #4B9DA9;
+    border-radius: 40%;
+    text-align: center;
+    border-color: orangered;
+    display: inline-block;
+    border-color: orangered;
+    border-width: 4px;
+    border-style: groove;
+}
+.journey{
+    width: 100px;
+    height: 50px;
+    border-radius: 40%;
+    background-color: #4B9DA9;
+    text-align: center;
+    color: #F6F3C2;
+    border-color: orangered;
+    border-width: 4px;
+    border-style: groove;
+    display: inline-block;
+    margin-left: 100px;
+}
+#heading-1{
+    text-align: center;
+    color: F6F3C2 ;
+    font-weight: 700;
+    transition: scale(1.1);
+}
+#heading-1{
+    transform: scale(1.1);
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,3) 
+}
+#name{
+    text-align: center;
+    color:#F6F3C2 ;
+    font-family: "Tagesschrift", sans-serif;
+    background-color: #4B9DA9;
+    font-weight: 400;
+    padding: 10px;
+    
+
+}
+.img{
+    display: block;
+    margin: 10px auto;
+    opacity: inherit;
+    border-style: ridge;
+    border-radius: 70%;
+    transition: scale(1.1);
+    box-shadow: 0 10px 25px rgba(0,0,0,2);
+    transition: transform 0.3s ease box-shadow 0.3s ease;
+    border: 3px solid transparent;
+    background: linear-gradient(white,white) padding-box;
+    background: linear-gradient(45deg, #ff6a00, #ee0979)border-box;
+    padding: 4px
+}
+
+.img:hover{
+    transform: scale(1.1);
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,3);
+}
+hr{
+    background-color:orangered
+}
+
+h3{
+    background-color: #4B9DA9; 
+    padding: 10px;
+    font-weight: 900;
+}
+
+ul{
+    font-weight: 600;
+}
+
+p{
+    font-weight: 600;
+    text-align: center;
+}

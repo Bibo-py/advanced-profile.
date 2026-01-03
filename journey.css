@@ -1,0 +1,14 @@
+body{
+    background-color: #91C6BC ;
+}
+.heading-1{
+    text-align: center;
+    color: F6F3C2 ;
+    font-weight: 700;
+    transition: scale(1.1);
+}
+.heading-1{
+    transform: scale(1.1);
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,3) 
+}

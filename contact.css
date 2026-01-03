@@ -1,0 +1,67 @@
+body{
+    background-color: #91c6bc;
+}
+
+
+#heading-1{
+    text-align: center;
+    color: #4B9DA9 ;
+    font-weight: 700;
+    transition: scale(1.1);
+    color:  #F6F3C2; 
+}
+#heading-1{
+    transform: scale(1.1);
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,3) 
+}
+a{
+    text-decoration: none;
+    color: #F6F3C2;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    border-style: groove;
+    border-width: 0px;
+    display: inline-block;
+}
+.email{
+ background-color: #4B9DA9;
+    height: 50px;
+    width: 100px;
+    color: #F6F3C2;
+    margin-left: 100px;
+    border-color: orangered;
+    border-radius: 40%;
+    border-style: groove;
+    border-width: 4px;
+    display: inline-block;  
+}
+.github{
+    background-color: #4B9DA9;
+    height: 50px;
+    width: 100px;
+    color: #F6F3C2;
+    margin-left: 100px;
+    border-color: orangered;
+    border-radius: 40%;
+    border-style: groove;
+    border-width: 4px;
+    display: inline-block;  
+}
+.instagram{
+    background-color: #4B9DA9;
+    height: 50px;
+    width: 100px;
+    color: #F6F3C2;
+    margin-left: 100px;
+    border-color: orangered;
+    border-radius: 40%;
+    border-style: groove;
+    border-width: 4px;
+    display: inline-block;
+}
